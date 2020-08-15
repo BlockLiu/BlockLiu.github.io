@@ -1,0 +1,142 @@
+body{
+	background-color: #FFC0CB;
+	margin: 0;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 15px; 
+}
+
+.wrapper {
+    background-color: #FFF0F5;
+    box-shadow: 0 0 16px #888888;
+    margin: auto;
+    width: 1000px;
+    position: relative; 
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#divHeader{
+	width: 100%;
+	height: 100px;
+	background-color: #DC143C;
+	box-shadow:0 0 60px #483D8B;
+	text-align: center;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+#divHeader p{
+	margin: 0;
+	color: #E1FFFF;
+	font-family: Monaco;
+	font-size: 40px;
+	line-height: 100px;
+}
+
+.gameBox{
+	width: 80%;
+	margin: 80px auto;
+	vertical-align:text-top;
+}
+.gameBlock{
+	vertical-align:text-top;
+	display: inline-block;
+	height: 550px;
+	text-align: center;
+}
+
+#divSudokuTable{
+	margin: auto;
+	width: 60%;
+}
+
+#divSudokuTable table{
+	background-color: #E6E6FA;
+	margin: auto;
+	border: solid #000 4px;
+	border-collapse: collapse;
+	width: 420px;
+	height: 420px;
+	table-layout:fixed;
+}
+
+#divSudokuTable > table > tr > td{
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	font-size: 20px;
+	text-align: center;
+	outline: none;
+}
+
+.setBefore{
+	background-color: #B0C4DE;
+}
+
+#timer{
+	margin:auto;
+	background-color: #000;
+	border: solid #000 4px;
+	width: 412px;
+	height: 60px;
+}
+#timer{
+	width: 412px;
+	text-align: center;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+#timerController{
+	margin: auto;
+	font-family: Monaco;
+	font-size: 30px;	
+	color: #FFFFFF;
+	line-height: 60px;
+	width: 300px;
+}
+
+#timer > #btnRefresh{
+	/*position: absolute;*/
+	float: left;
+	height: 60px;
+	padding-left: 10px;
+	opacity: 1;
+}
+#timer > #btnControl{
+	/*position: absolute;*/
+	float: right;
+	height: 60px;
+	padding-right: 10px;
+	opacity: 1;
+}
+
+#divControlPanel{
+	margin: auto;
+	width: 35%;
+	text-align: center;
+}
+
+.solveBtn{
+	color: #FFFFFF;
+	margin: 40px auto;
+	width: 60%;
+	padding: 10px;
+	font-size: 30px;	
+	font-family: Monaco;
+	background-color: rgba(0, 0, 0, 1);
+	box-shadow: 8px 10px 7px #888888;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+
+
+
+
+
+

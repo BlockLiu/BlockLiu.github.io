@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sudoku-数独求解</title>
+    <link rel="stylesheet" href="./css/sudokuTable.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/sticky.min.js"></script>
+ 	<script src=./js/drawSudoku.js></script>
+</head>
+
+<body onload="init()" style="text-align:center;">
+	<div class="wrapper">
+		<!-- header -->
+		<div id="divHeader">
+			<p>Sudoku solver 1.0</p>
+		</div>
+		
+		<div class="gameBox">
+			<!-- 数独棋盘 -->
+			<div id="divSudokuTable" class="gameBlock"></div>
+			<!-- 控制面板 -->
+			<div id="divControlPanel" class="gameBlock"></div>
+		</div>
+	</div>
+	<p style="font-family: Monaco; font-size:10px;">My first attempt to build a web!</p>
+</body>
+</html>
+
